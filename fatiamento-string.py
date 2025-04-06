@@ -1,7 +1,8 @@
-'''
-Fatiamento de Strings
-=====================
 
+# Fatiamento de Strings e Length
+# ==============================
+
+'''
 Fatiamento de strings é uma técnica que permite
 extrair partes de uma string original.
 
@@ -25,3 +26,16 @@ variavel = "Aprendendo Python"
 print(variavel[0:10])  # Aprendendo
 print(variavel[11:17])  # Python
 print(variavel[0:17:2])  # Arned yhn
+print(variavel[::-1]) # nohtyP odnednerpA
+
+'''
+Length é uma função que retorna o tamanho
+de uma string, ou seja, 
+o número total de caracteres
+presentes na string.
+A sintaxe é a seguinte:
+len(string)
+
+Exemplo de uso da função len():
+'''
+print(len(variavel)) # 17
