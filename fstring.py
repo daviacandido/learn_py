@@ -107,16 +107,6 @@ texto = "Olá, {nome}!"
 texto_substituido = f"{texto.format(nome='Alice')}"
 print(texto_substituido)  # Saída: Olá, Alice!
 
-# F-strings suportam formatação de strings com expressões complexas
-texto = "Olá, {nome.upper()}!"
-texto_complexo = f"{texto.format(nome='Alice')}"
-print(texto_complexo)  # Saída: Olá, ALICE!
-
-# F-strings suportam formatação de strings com expressões aninhadas
-texto = "Olá, {nome}!"
-texto_aninhado = f"{texto.format(nome='Alice')}"
-print(texto_aninhado)  # Saída: Olá, Alice!
-
 # F-strings suportam formatação de strings
 # com expressões condicionais aninhadas
 texto = "Olá, {nome}!"
