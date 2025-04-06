@@ -26,11 +26,12 @@ variavel = "Aprendendo Python"
 print(variavel[0:10])  # Aprendendo
 print(variavel[11:17])  # Python
 print(variavel[0:17:2])  # Arned yhn
-print(variavel[::-1]) # nohtyP odnednerpA
+print(variavel[::-1])  # nohtyP odnednerpA
+
 
 '''
 Length é uma função que retorna o tamanho
-de uma string, ou seja, 
+de uma string, ou seja,
 o número total de caracteres
 presentes na string.
 A sintaxe é a seguinte:
@@ -38,4 +39,6 @@ len(string)
 
 Exemplo de uso da função len():
 '''
-print(len(variavel)) # 17
+
+
+print(len(variavel))  # 17
