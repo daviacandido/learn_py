@@ -26,8 +26,8 @@ print(f"O imposto sobre o produto é: {imposto}")
 # Complexidade do Código pode tornar o código inlegivel,
 # por exemplo, muitas condições no mesmo if.
 
-velocidade_carro = 50
-local_carro = 101
+velocidade_carro = 61
+local_carro = 99
 
 RADAR_1 = 60
 LOCAL_1 = 100
@@ -48,12 +48,12 @@ if local_carro >= (LOCAL_1 - RADAR_RANGE) and \
 # Exemplo de um código mais limpo:
 
 velocidade_carro_passou_radar_1 = velocidade_carro > RADAR_1
+
 verifica_local_carro_velocidade = local_carro >= (LOCAL_1 - RADAR_RANGE) and \
-    local_carro <= (LOCAL_1 + RADAR_RANGE) and \
-    velocidade_carro_passou_radar_1
+    local_carro <= (LOCAL_1 + RADAR_RANGE)
 
 if velocidade_carro_passou_radar_1:
     print('Velocidade carro passou do radar 1')
 
-if verifica_local_carro_velocidade:
+if verifica_local_carro_velocidade and velocidade_carro_passou_radar_1:
     print('Carro multado em radar 1')
