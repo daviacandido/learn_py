@@ -41,6 +41,9 @@ O curso é dividido em módulos que cobrem do básico ao avançado em Python, al
 
 Durante meus estudos, estarei usando **pipelines via Jenkins** para validar a **formatação do código seguindo a PEP8**.  
 Isso garante que meu código esteja limpo, padronizado e pronto para ambientes profissionais.
+Abaixo, vídeo no youtube de como encontra-se configurado e instalado o Jenkins e a Pipeline responsável por rodar o teste:
+
+***https://youtu.be/cYNZLNacjEg***
 
 ---
 
