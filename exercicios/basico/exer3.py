@@ -13,12 +13,16 @@ try:
     tarde = 12 <= hora <= 17
     noite = 18 <= hora <= 23
 
+    manha_texto = 'Bom dia!'
+    tarde_texto = 'Boa tarde!'
+    noite_texto =  'Boa tarde!'
+
     if manha:
-        print("Bom dia!")
+        print(manha_texto)
     elif tarde:
-        print("Boa tarde!")
+        print(tarde_texto)
     elif noite:
-        print("Boa noite!")
+        print(noite_texto)
     else:
         print("Valor inserido não corresponde a um horário")
 except ValueError:
