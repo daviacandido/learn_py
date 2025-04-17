@@ -20,17 +20,34 @@ while True:
 
     operadores_permitidos = '+-/*'
 
-    if operador not in operadores_permitidos:
-        print('Operador inválido.')
+    if len(operador) == 0:
+        print('Digite um operador:')
         continue
-
+    
     if len(operador) > 1:
         print('Digite apenas um operador.')
         continue
 
+    if operador not in operadores_permitidos:
+        print('Operador inválido.')
+        continue
+
+
+    print('Realizando a sua conta, confira o resultado abaixo: ')
+    
+    if operador == '+':
+        print(num_1_float + num_2_float)
+    if operador == '-':
+        print(num_1_float - num_2_float)
+    if operador == '/':
+        print(num_1_float / num_2_float)
+    if operador == '*':
+        print(num_1_float * num_2_float)
+    else:
+        print('Não deveria estar aqui.')
+
+
     sair = input('Quer sair? [s]im: ').lower().startswith('s')
-    print(sair)
 
     if sair is True:
         break
-    
