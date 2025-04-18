@@ -14,4 +14,3 @@ try:
         print("O número é impar.")
 except ValueError:
     print("O valor digitado não é um número inteiro.")
-
