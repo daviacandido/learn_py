@@ -10,7 +10,7 @@ qtd_letra = 0
 for letra in frase:
 
     contador_letra = frase.count(letra)
-    
+
     if qtd_letra < contador_letra:
         qtd_letra = contador_letra
         letra_mais_vezes = letra
