@@ -12,3 +12,4 @@ try:
     print(f'O dobro de {numero} é {numero*2}')
 except ValueError:
     print("Isto não é um número")
+    

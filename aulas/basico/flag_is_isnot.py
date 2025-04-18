@@ -16,8 +16,8 @@ print(a is not b)  # False - mesmo objeto
 print(id(a))  # id do objeto a
 print(id(b))  # id do objeto b
 print(a == b)  # True - mesmo valor
-print(a is 10)  # True - mesmo objeto
-print(a is not 10)  # False - mesmo objeto
+print(a == 10)  # True - mesmo objeto
+print(a != 10)  # False - mesmo objeto
 print(a is None)  # False - a não é None
 print(a is not None)  # True - a não é None
 print(a is True)  # False - a não é True
@@ -40,3 +40,4 @@ if passou_no_if is None:
     print("Não passou no if")
 else:
     print("Passou no if")
+    
