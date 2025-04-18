@@ -4,15 +4,15 @@ frase = 'O python é uma linguagem de programação '\
     'multiparadigma. ' \
     'Python foi criado por Guido van Rossum.'.upper().replace(" ", "")
 
+letra_mais_vezes = ''
+qtd_letra = 0
 
-qtd_vezes_letra = 0
-mais_vezes_letra = ''
-for i in range(len(frase)):
-    letra_atual = frase[i]
+for letra in frase:
 
-    contador_letra = frase.count(letra_atual)
-    if qtd_vezes_letra < contador_letra:
-        qtd_vezes_letra = contador_letra
-        mais_vezes_letra = letra_atual
+    contador_letra = frase.count(letra)
+    
+    if qtd_letra < contador_letra:
+        qtd_letra = contador_letra
+        letra_mais_vezes = letra
 
-print(f'A letra "{mais_vezes_letra}" aparece {qtd_vezes_letra}x')
+print(f'A letra {letra_mais_vezes} apareceu {qtd_letra}x')
