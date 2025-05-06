@@ -3,7 +3,14 @@ Listas em Python
 Tipo list é mutavel
 SUporta vários valores de qualquer tipo
 Conhecimentos reutilizaveis - indices e fatiamento
-Métodos úteis: append, insert, pop, del, clear, extend, +
+Métodos úteis: 
+append - adiciona um item ao final da lista
+insert - adiciona um intem no indice escolhido
+pop - remofe do final ou do indice escolhido
+del - apaga um indice
+clear - limpa a lista
+extend - estenda uma lista
++ - concatena listas
 
 CRUD - Create Read Update Delete
 Criar, ler, alterar e apagar algo na lista:
