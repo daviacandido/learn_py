@@ -28,6 +28,9 @@ for i in range(len(lista)):
         lista.append(70)
 print(lista)
 
+lista.insert(2,100)
+print(lista)
+
 # Ao usar 'del' deve-se tomar cuidado devido
 # ao alto processamento que pode ser causado,
 # pois o python irá realocar todos os itens 
