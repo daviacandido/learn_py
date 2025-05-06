@@ -13,7 +13,7 @@ lista1 = []
 print(lista1)
 print(bool(lista1))
 
-lista2 = [123, 'Davi', True, 1.2, [ 123, 'Davi', 1.2]]
+lista2 = [123, 'Davi', True, 1.2, [123, 'Davi', 1.2]]
 
 for i in lista2:
     print(i)
