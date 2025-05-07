@@ -2,8 +2,7 @@
 
 lista = ['João', 'Maria', 'José']
 
-for nome in lista:
-    print(nome)
-    if nome == 'José':
-        lista.append('Davi')
-print(lista)
+indices = range(len(lista))
+
+for indice in indices:
+    print(f'Indice: {indice}\nConteudo: {lista[indice]}')
