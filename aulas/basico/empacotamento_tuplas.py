@@ -10,3 +10,11 @@ nomes.append('Davi')
 _, _, _, davi, *_ = nomes
 
 print(f'Novo nome: {davi}')
+
+# tuplas são listas imutáveis:
+
+novos_nomes = 'Maria', 'João', 'Luiz'
+# ou
+novos_nomes = tuple(nomes)
+
+print(novos_nomes)
