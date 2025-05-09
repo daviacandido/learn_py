@@ -12,7 +12,7 @@ lista = []
 continua = True
 while continua is True:
     opcao = input(
-        '- [A]pagar\n- [I]nserir\n- [L]istar\n[S]air\nSelecione uma opção: '
+        '- [A]pagar\n- [I]nserir\n- [L]istar\n- [S]air\nSelecione uma opção: '
         )
     opcao_real = opcao.upper()
 
