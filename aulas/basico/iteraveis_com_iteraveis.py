@@ -8,7 +8,6 @@ salas = [
     ['Luiz', 'Davi']
 ]
 
-for i, sala in enumerate(salas):
-    for i, aluno in enumerate(sala):
-        print(i, aluno)
-    print(i, sala)
+for numero_da_sala, alunos_na_sala in enumerate(salas):
+    for numero_aluno, aluno in enumerate(alunos_na_sala):
+        print(f'Sala: {numero_da_sala}\nAluno: {aluno}')
