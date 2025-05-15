@@ -7,5 +7,3 @@ salas = [
 
 print(*salas, sep='\n')
 print(*lista, end='\n', sep=', ')
-
-
