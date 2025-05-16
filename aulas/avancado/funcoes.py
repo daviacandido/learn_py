@@ -4,9 +4,21 @@ def exemplo():
 
 exemplo()
 
+# Argumentos não nomeado:
 
-def soma(a, b):
-    return a + b
+
+def soma(x, y):
+    print(f'A soma entre {x} e {y} é igual a {x + y}')
 
 
 print(soma(1, 2))
+
+
+# Argumentos não nomeados:
+
+
+def subtracao(x, y):
+    print(f'A subtração de {x} com {y} é igual a {x - y}')
+
+
+subtracao(y=10, x=5)
