@@ -27,13 +27,13 @@ contrário disso:
 O primeiro dígito do CPF é 7
 """
 
-#cpf = '746.824.890-70' \
+# cpf = '746.824.890-70' \
 #    .replace('.', '') \
 #    .replace('-', '')
 
 entrada = input('Informe seu CPF: ')
 
-#retira o que não é numero do CPF
+# retira o que não é numero do CPF
 cpf = re.sub(
     r'[^0-9]',
     '',
