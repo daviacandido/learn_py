@@ -13,7 +13,7 @@ x = 1
 def escopo():
     # nesse caso, o x está fora da função
     # por isso, é possível puxar o valor:
-    y = 1
+    # y = 1
     print(x)
 
 
