@@ -29,9 +29,8 @@ def par_ou_impar(numero):
         return "Insira um número inteiro"
 
     if numero_int % 2 == 0:
-        return "Par"
-    else:
-        return "Impar"
+        return f"{numero_int} é par"
+    return f"{numero_int} é impar"
 
 
 verifica_par_impar = par_ou_impar(7)
