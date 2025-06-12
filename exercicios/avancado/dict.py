@@ -35,7 +35,6 @@ for pergunta in perguntas:
     print()
 
     opcoes = pergunta['Opções']
-
     for i, opcao in enumerate(opcoes):
         print(f'{i}) {opcao}')
     print()
@@ -50,7 +49,6 @@ for pergunta in perguntas:
                 escolha = None
         except ValueError:
             print(f'Entrada inválida! Escolha um valor inteiro entre 0 e {len(opcoes) - 1}')
-    qtd_opcoes = len(opcoes)
 
     if verifica_acerto(escolha, pergunta['Resposta'], opcoes):
         acertos += 1
