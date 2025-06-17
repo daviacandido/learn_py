@@ -21,13 +21,15 @@ lista = [
 ]
 
 lista_ordenada_id = sorted(lista, key=lambda item: item['id'])
-lista_ordenada_nome = sorted(lista, key=lambda item: item['nome']) 
+lista_ordenada_nome = sorted(lista, key=lambda item: item['nome'])
+
 
 def printa_lista(lista):
     for dicionario in lista:
         for chave in dicionario:
             print(f'{chave}: {dicionario[chave]}')
     print()
+
 
 printa_lista(lista_ordenada_nome)
 printa_lista(lista_ordenada_id)
