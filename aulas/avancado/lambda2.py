@@ -34,7 +34,7 @@ duplica = executa(
 print(
     executa(
         lambda *args: sum(args),
-        2,3,4,5,6
+        2, 3, 4, 5, 6
     )
 )
 
