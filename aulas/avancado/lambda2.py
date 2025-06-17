@@ -31,4 +31,11 @@ duplica = executa(
     3
 )
 
-print(duplica(9))
+print(
+    executa(
+        lambda *args: sum(args),
+        2,3,4,5,6
+    )
+)
+
+print(duplica(10))
