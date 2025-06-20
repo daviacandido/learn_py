@@ -32,8 +32,7 @@ novos_produtos = [
     if produto['preco'] > 20 else {**produto}
     for produto in produtos
     # filtro:
-
-
+    if produto['preco'] <= 20
 ]
 
 p(novos_produtos)
