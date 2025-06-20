@@ -2,7 +2,7 @@ import pprint
 
 
 def p(variavel):
-    pprint.pprint(novos_produtos, sort_dicts=False, width=40)
+    pprint.pprint(variavel, sort_dicts=False, width=40)
 
 
 # lista comum:
@@ -36,3 +36,11 @@ novos_produtos = [
 ]
 
 p(novos_produtos)
+
+nova_lista = [
+    (x, y)
+    for x in range(5)
+    for y in range(5)
+]
+
+p(nova_lista)
