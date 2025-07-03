@@ -1,11 +1,12 @@
+import sys
+
 # Generator Expression, Iterables e Iterators em Python
 
 iterable = ['Eu', 'Tenho', '__iter__']
 iterator = iter(iterable)
 
-for i in iterator:
-    print(i)
+lista = [n for n in range(10000)]
+generator = (n for n in range(10000))
 
-# Aqui irá retornar erro pois o iterator já chegou ao final
-# do iterable:
-# print(next(iterator))
+print(sys.getsizeof(lista))
+print(sys.getsizeof(generator))
